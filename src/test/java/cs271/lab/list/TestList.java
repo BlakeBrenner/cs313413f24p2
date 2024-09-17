@@ -53,7 +53,7 @@ public class TestList {
     list.add(77);
     assertEquals(true, list.contains(77));
     // that hold before and after adding 77 to the list
-    //fail("Not yet implemented"); // remove this line when done
+
   }
 
   @Test
@@ -125,7 +125,7 @@ public class TestList {
     assertEquals(List.of(33, 77, 44, 77, 55, 77, 66), list);
 
     assertEquals(false, list.containsAll(List.of(11,22,33)));
-    //fail("Not yet implemented"); // remove this line when done
+
   }
 
   @Test

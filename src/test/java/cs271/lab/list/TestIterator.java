@@ -83,7 +83,7 @@ public class TestIterator {
     // interface for more information
     assertEquals(List.of(33, 44, 55, 66), list);
     System.out.println(list);
-    //fail("Not yet implemented"); // remove this line when done
+
   }
 
   @Test
